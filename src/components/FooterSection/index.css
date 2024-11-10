@@ -1,0 +1,34 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 60px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  background-color: lightgray;
+}
+.logo2 {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.address {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.br {
+  padding-top: 20px;
+}
+.locationBtn {
+  background-color: rgb(6, 64, 108);
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}

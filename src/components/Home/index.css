@@ -1,0 +1,80 @@
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.firstOne {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(228, 228, 228);
+  height: 60vh;
+  width: 100%;
+  animation: first 1s 1 forwards;
+}
+
+@keyframes first {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  padding-left: 50px;
+}
+.top-header {
+  font-size: 50px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 100%;
+  letter-spacing: 0.3ch;
+}
+.top-description {
+  font-size: 18px;
+  color: gray;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.logos-container {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.logo3 {
+  color: rgb(76, 81, 58);
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}
+.logo4 {
+  width: 50%;
+  height: 60vh;
+  animation: logo4 1s 1 forwards;
+}
+
+@keyframes logo4 {
+  from {
+    transform: translateX(1200px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.two {
+  top: -80px;
+  height: 150px;
+}
+.locationBtn {
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.discover-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.mainHead {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.discover-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 30px;
+  width: 100%;
+}
+.first-review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+
+  background-size: cover;
+  box-shadow: 0px 3px 5px gray;
+  border-radius: 10px;
+  padding: 10px;
+  animation: first 1s 1 forwards;
+}
+
+@keyframes first {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.profileImage {
+  width: 70px;
+  height: 70px;
+  border: 3px solid cyan;
+  border-radius: 50%;
+}
+.profile-name {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.starImage {
+  width: 80px;
+}
+.reviewDescription {
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+}
+.btn5 {
+  border: none;
+  background-color: transparent;
+  color: rgb(59, 105, 222);
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.second-review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  background-size: cover;
+  box-shadow: 0px 3px 5px gray;
+  border-radius: 10px;
+  animation: second 1s 1 forwards;
+}
+
+@keyframes second {
+  from {
+    transform: translateY(-350px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.ladakhimg {
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 20px;
+}
+.profile-container2 {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.profileImage2 {
+  width: 70px;
+  height: 70px;
+  border: 3px solid cyan;
+  border-radius: 50%;
+}
+.profile-name2 {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.starImage2 {
+  width: 80px;
+}
+.reviewDescription2 {
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+  padding: 10px;
+}
+.btn6 {
+  border: none;
+  background-color: transparent;
+  color: rgb(59, 105, 222);
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.third-review-container {
+  display: flex;
+  flex-direction: column;
+}
+.third-sub-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  background-size: cover;
+  box-shadow: 0px 3px 5px gray;
+  animation: third 1s 1 forwards;
+}
+
+@keyframes third {
+  from {
+    transform: translateX(1200px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.third-sub-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  background-size: cover;
+  box-shadow: 0px 3px 5px gray;
+  margin-top: 30px;
+  animation: third1 2s 1 forwards;
+}
+@keyframes third1 {
+  from {
+    transform: translateX(1200px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}

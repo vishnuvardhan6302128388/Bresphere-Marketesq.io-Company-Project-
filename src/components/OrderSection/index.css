@@ -1,0 +1,84 @@
+.main-order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+.order-container {
+  background-color: rgb(247, 242, 242);
+  height: 45vh;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.order-container1 {
+  border-right: 2px dotted gray;
+  padding-right: 290px;
+  padding-bottom: 30px;
+  animation: order1 1s 1 forwards;
+}
+
+@keyframes order1 {
+  from {
+    transform: translateX(-350px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+head5 {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.person-details-container {
+  font-size: 16px;
+  color: gray;
+  font-family: 'Roboto';
+  padding-top: 5px;
+}
+.det {
+  padding-top: 10px;
+}
+.order-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  animation: order2 1s 1 forwards;
+}
+
+@keyframes order2 {
+  from {
+    transform: translateX(1200px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.success-logo {
+  width: 80px;
+}
+.order-status-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.contactUs {
+  color: rgb(113, 192, 241);
+  font-size: 17px;
+}
+.three {
+  position: relative;
+  top: -150px;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+}
+.company-header {
+  font-size: 24px;
+  font-family: 'Bree serif';
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.list-item {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: gray;
+}

@@ -1,0 +1,259 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(218, 230, 233);
+  padding: 30px;
+  height: 45vh;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-bottom: 20px;
+}
+.names-container {
+  width: 650px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.email-container {
+  width: 650px;
+  height: 70px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.phNo-container {
+  width: 650px;
+  height: 70px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.persons-container {
+  width: 650px;
+  height: 70px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.name2 {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.email {
+  width: 650px;
+  height: 70px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+
+.phNo {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+.noOf-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 650px;
+}
+.adult-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  height: 70px;
+  width: 45%;
+}
+.adults {
+  padding: 10px;
+  font-family: 'Roboto';
+
+  font-size: 20px;
+}
+.adult {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.child-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  height: 70px;
+  width: 45%;
+}
+.child {
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+
+.checkin-container {
+  box-shadow: 0px 3px 30px aqua;
+  width: 80%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: -20px;
+  background-color: white;
+  animation: card 1.5s 1 forwards;
+}
+
+@keyframes card {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.checkin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px dotted gray;
+  padding-right: 200px;
+}
+.checkout-container {
+  border-right: 2px dotted gray;
+  padding-right: 200px;
+}
+
+.checks {
+  font-size: 22px;
+  font-weight: 400;
+}
+.date {
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  padding-top: 10px;
+  text-align: center;
+}
+.rooms-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.noOfRooms-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  padding-top: 10px;
+}
+.btn1 {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.btn2 {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+.confirm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-container {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+.btn3 {
+  background-color: rgb(6, 64, 108);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 60px;
+  border: none;
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
+.amount {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: white;
+}
+.logo1 {
+  color: white;
+  background-color: rgb(7, 43, 90);
+  height: 60px;
+  padding: 20px;
+  width: 50px;
+  font-size: 23px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.payDescription {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-top: 10px;
+}
